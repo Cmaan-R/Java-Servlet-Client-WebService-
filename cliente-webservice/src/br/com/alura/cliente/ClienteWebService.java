@@ -14,7 +14,6 @@ public class ClienteWebService {
 			.asString();
 		
 		System.out.println(conteudo);
-		//teste
 
 	}
 
