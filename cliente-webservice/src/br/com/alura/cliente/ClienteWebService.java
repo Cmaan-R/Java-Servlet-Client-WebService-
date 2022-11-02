@@ -8,11 +8,13 @@ public class ClienteWebService {
 
 		String conteudo = Request 
 			.Post("http://localhost:8080/gerenciador/empresas")
+			.addHeader("Accept", "application/json")
 			.execute()
 			.returnContent()
 			.asString();
 		
 		System.out.println(conteudo);
+		//teste
 
 	}
 
